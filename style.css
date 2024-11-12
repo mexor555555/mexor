@@ -1,0 +1,111 @@
+
+html {
+  background-color: #F1ECEB;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid{
+  background-color: #F1ECEB;
+  padding: 1em;
+}
+/* Custom CSS */
+.nav-link-hover-color {
+  color: black; /* Set the default color for the links */
+  margin-right: 10px; /* Add space between the links */
+  transition: color .15s ease-in-out; /* Add a smooth transition effect */
+}
+
+.nav-link-hover-color:hover {
+  color: red; /* Set the color for the links on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+header {
+  background-color: #F1ECEB;
+  border-bottom: 1px solid #b3141d; 
+  padding: 1em;
+
+}
+
+/* Estilo para aplicar un borde inferior al main */
+main {
+  background-color: #F1ECEB;
+  border-top: 1px solid #b3141d; 
+    padding: 1em;
+}
+
+.col-6  {
+  padding: 2em;
+  margin: 4em;
+  
+
+}
+
+.btn2 {
+  cursor: pointer;
+  background-color: #F1ECEB;
+  border: 1px solid #b3141d;
+  border-radius: 1em;
+  box-shadow: 0 0 0.5em #b3141d;
+  padding: 3em;
+  margin: 1em;
+}
+
+
+
+
+.btn {
+  width: 45%;
+  height: 45%;
+  cursor: pointer;
+  background-color: #F1ECEB;
+  border: 1px solid #b3141d;
+  border-radius: 1em;
+  box-shadow: 0 0 0.5em #b3141d;
+  padding: 3em;
+  margin: 1em;
+}
+
+.vertical-buttons-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #F1ECEB;
+  border: 1px solid #b3141d;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1em #b3141d;
+  
+}
+
+.vertical-buttons-container button {
+  flex: 1;
+  margin: 0.5em;
+  padding: 1em;
+  cursor: pointer;
+  background-color: #F1ECEB;
+  border: 1px solid #b3141d;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1em #b3141d;
+}
+
+section {
+  background-color: #F1ECEB;
+  padding: 1em;
+}
+
+.card {
+  background-color: #F1ECEB;
+
+}
+
+
+
+    .contenedor {
+        display: flex;
+        align-items: center; /* Centra verticalmente los elementos */
+        margin-right: 10px; /* Margen a la derecha para evitar solapamiento */
+    }
+
+

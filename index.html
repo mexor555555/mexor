@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexor</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="images/logoMexor.png">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> 
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <!--   ENCABEZADO     -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id = "header-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logoMexor.png" alt="" width="100" height="60" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="botón" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegación">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link-hover-color" aria-current="page" href="#" id="inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-hover-color" href="#" id="quienes"> ¿Quiénes somos?</a> <!-- sub pagina 1-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-hover-color" href="#" id="productos"> Productos</a> <!-- sub pagina 2-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-hover-color" href="#" id="ubicacion"> Ubicación</a> <!-- sub pagina 3-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-hover-color" href="#" id="contactanos"> Contactanos</a> <!-- sub pagina 4-->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <main> <!--Etiqueta main--> 
+   
+
+        <!--   CARRUSEL     -->
+        <section class="container" class="main-content containerw-75" id="main-content">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/mexorCarrusel1.png" class="d-block w-100" alt="logoMexor">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style="color: #b3141d; font-size: 24px; font-weight: bold;"> MULTISERVICIOS PARA LA EXCELENCIA ORGANIZACIONAL S.A. DE C.V.</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/mexorCarrusel2.png" class="d-block w-100" alt="logoMexor">
+                    <div class="carousel-caption d-none d-md-block">
+                      
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section>
+
+          <div class="row g-0">
+
+            <!--    BOTONES SELECCION DE PRODUCTOS     -->
+            <div class="col-6 col-md-1 justify-content-start" style="width: 11rem; height: 25rem;" >
+              <div style="display: flex; flex-direction: column;">
+                  <button id="btn-oficina" type="button" class="btn btn-outline-danger" style="flex: 1; width: 9rem; height: 2rem;">Oficina</button>
+                  <button id="btn-informatica" type="button" class="btn btn-outline-danger" style="flex: 1; width: 9rem; height: 2rem;">Informatica</button>
+                  <button id="btn-salud" type="button" class="btn btn-outline-danger" style="flex: 1; width: 9rem; height: 2rem;">Medicina y Salud</button>
+                  <button id="btn-promocion" type="button" class="btn btn-outline-danger" style="flex: 1; width: 9rem; height: 2rem;">Publicidad y Promoción</button>
+              </div>
+            </div>
+    
+    
+            <div class="col-sm-6 col-md-9">
+              <div class="row">
+                <div id="cards-container" class="row g-0">
+                
+                    
+                </div>
+              </div>
+            </div>
+                
+        
+
+          </div>
+
+         
+
+        </section>
+
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        // Obtener referencias a los botones
+        const btnOficina = document.getElementById("btn-oficina");
+        const btnInformatica = document.getElementById("btn-informatica");
+        const btnMedicina = document.getElementById("btn-salud");
+        const btnPublicidad = document.getElementById("btn-promocion");
+    
+        // Obtener referencias al contenedor de las cards
+        const cardsContainer = document.getElementById("cards-container");
+    
+        // Arreglo de categorías y sus cards asociadas
+        const categorias = [
+          {
+            nombre: "Oficina",
+            cards: [
+              "Papelería en general",
+              "Mobiliario y equipo de oficina",
+              "Muebles metálicos ",
+              "Suministros y consumibles de computo",
+              "Aires Acondicionados",
+              "Uniformes y ropa industrial"
+            ]
+          },
+          {
+            nombre: "Informatica",
+            cards: [
+              "Software especializado",
+              "Licencias de programas",
+              "Ingeniería en sistemas y bases de datos",
+              "Programación interactiva",
+              "Hardware",
+              "Diseño, análisis y resolución de arquitecturas de redes ",
+              "Asesoría y consultoría"
+            ]
+          },
+          {
+            nombre: "Medicina y Salud",
+            cards: [
+              "Productos de belleza",
+              "Material de curación",
+              "Material de curación",
+              "Productos ortopédicos y de rehabilitación",
+              "Medicamentos de alta especialización, de patente y genéricos",
+              "Equipo e instrumental médico y de laboratorio"
+            ]
+          },
+          {
+            nombre: "Publicidad y Promoción",
+            cards: [
+              "Productos promocionales de catalogo",
+              "Asesoría y capacitación",
+              "Campañas en redes sociales",
+              "Manejo de medios",
+              "Diseño de campañas de comunicación",
+              "Impresos en pequeño y gran formato, offset y serigrafía",
+              "Diseño especial de artículos para promoción o comunicación"
+            ]
+          },
+          
+        ];
+    
+        // Función para crear una card
+        function createCard(title) {
+          const card = document.createElement("div");
+          card.classList.add("col");
+    
+          const cardHtml = `
+            <div class="card" style="width: 15rem; height: 24rem; padding: 1rem;">
+              <img src="images/mexorCarrusel1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">${title}</h5>
+                <p class="card-text">Todos los productos de Mexor de calidad que quiera conocer.</p>
+                <a href="#" class="btn btn-primary" id= "btn2" style="width: 9rem; height: 2.5rem; background-color: #b3141d;">Ver más</a>
+              </div>
+            </div>
+          `;
+          card.innerHTML = cardHtml;
+    
+          return card;
+        }
+    
+        // Función para mostrar las cards correspondientes a la categoría seleccionada
+        function showCards(categoria) {
+          cardsContainer.innerHTML = "";
+    
+          // Buscar la categoría seleccionada en el arreglo
+          const cat = categorias.find(c => c.nombre === categoria);
+    
+          if (cat) {
+            // Recorrer las cards asociadas a la categoría y crearlas
+            cat.cards.forEach(card => {
+              cardsContainer.appendChild(createCard(card));
+            });
+          }
+        }
+    
+        // Asignar eventos de clic a cada botón para mostrar las cards correspondientes
+        btnOficina.addEventListener("click", () => {
+          showCards("Oficina");
+        });
+    
+        btnInformatica.addEventListener("click", () => {
+          showCards("Informatica");
+        });
+    
+        btnMedicina.addEventListener("click", () => {
+          showCards("Medicina y Salud");
+        });
+
+        btnPublicidad.addEventListener("click", () => {
+          showCards("Publicidad y Promoción");
+        });
+
+    
+        // Mostrar las cards de la categoría "Oficina" por defecto
+        showCards("Oficina");
+        showCards("Informatica");
+        showCards("Medicina y Salud");
+        showCards("Publicidad y Promoción");
+      });
+    </script>
+    
+
+    
+    
+
+</body>
+</html>
